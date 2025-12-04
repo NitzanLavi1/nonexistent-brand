@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-black text-white antialiased;
+    }
+}
+
+/* Custom range slider styling for the brutalist look */
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    margin-top: -10px;
+    border-radius: 0;
+    /* Square thumb for brutalist feel */
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: #333333;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 20s linear infinite;
+}
