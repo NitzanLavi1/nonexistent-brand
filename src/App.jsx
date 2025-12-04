@@ -40,7 +40,7 @@ const App = () => {
                         <video
                             ref={videoRef}
                             className="w-full h-full object-cover object-top"
-                            src="/hat-360.mp4"
+                            src="https://res.cloudinary.com/dmnlkgata/video/upload/v1764838282/Video_Repair_Request_and_Completion_zgayaj.mp4"
                             muted
                             playsInline
                             loop={false}
@@ -68,7 +68,7 @@ const App = () => {
                 {/* Model 1 - Female */}
                 <div className="group relative aspect-[3/4] border-b md:border-b-0 md:border-r border-white/10 overflow-hidden">
                     <img
-                        src="/images/model-female.png"
+                        src="https://res.cloudinary.com/dmnlkgata/image/upload/v1764838283/Gemini_Generated_Image_6a95yk6a95yk6a95_oqrv8n.png"
                         alt="Model wearing hat"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
                     />
@@ -80,7 +80,7 @@ const App = () => {
                 {/* Model 2 - Male */}
                 <div className="group relative aspect-[3/4] overflow-hidden">
                     <img
-                        src="/images/model-male.png"
+                        src="https://res.cloudinary.com/dmnlkgata/image/upload/v1764838283/Gemini_Generated_Image_6a95yk6a95yk6a95_oqrv8n.png"
                         alt="Model wearing hat"
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out"
                     />
